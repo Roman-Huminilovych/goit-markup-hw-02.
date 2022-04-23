@@ -42,7 +42,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-/*color: var(--primary-text-color-theme-light)*/
+color: var(--primary-text-color-theme-light)
 }
 
 /* ========/components======= */
@@ -54,6 +54,7 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;  
+    color: #212121;;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -64,6 +65,9 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: #212121;
+    
+    
 
     
 }
@@ -71,17 +75,19 @@ letter-spacing: 0.03em;
 .contact-mail:focus {
     color: var(--accent-color);
 }
-.contact-phone-number {
+.contact-number-phone {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
-    color: var(--secondary-text-color-theme-dark)
+    color: #757575;
 }
 /* ========/header======= */
 
 /* ========hero======= */
+.hero {
+    background-color: #2F303A;
+}
 .main-title {
     font-weight: 900;
     font-size: 44px;
@@ -90,7 +96,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
-    /*color: var(--primary-text-color-theme-light)*/
+    color: var(--primary-text-color-theme-light)
 }
 .modal-btn {
     font-weight: 700;
@@ -101,7 +107,7 @@ letter-spacing: 0.03em;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-    /* color: var(--primary-text-color-theme-light)*/
+     color: var(--primary-text-color-theme-light)
 }
 /* ========/hero======= */
 /* ========servicec======= */
@@ -152,23 +158,33 @@ letter-spacing: 0.03em;
 /* ========about/======= */
 
 /* ========footer ======= */
-.contact-map {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    
-    /*color: var(--primary-text-color-theme-light)*/
+.footer {
+    background-color: #2F303A;
 }
-.contact-addres {
+.contact-map {
+
     font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     
-    /*color: var(--secondary-text-color-theme-light)*/
+    color: var(--primary-text-color-theme-light)
+}
+.contact-addres { 
+
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+color: var(--secondary-text-color-theme-light)
 }
 /* ========footer/======= */
+
+
+
 
 /* ========filter======= */
 .btn-name {
