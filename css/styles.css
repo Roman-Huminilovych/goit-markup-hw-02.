@@ -76,7 +76,8 @@ color: var(--primary-text-color-theme-light)
     
 }
 .contact-mail:hover,
-.contact-mail:focus {
+.contact-mail:focus,
+.current {
     color: var(--accent-color);
 }
 .contact-number-phone {
@@ -191,9 +192,14 @@ color: var(--primary-text-color-theme-light)
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    
 color: var(--secondary-text-color-theme-light)
 }
+
+.contact-addres:hover,
+.contact-addres:focus {
+    color: var(--accent-color);
+}
+
 /* ========footer/======= */
 
 
@@ -215,6 +221,10 @@ color: var(--secondary-text-color-theme-light)
 }
 .btn-name:hover,
 .btn-name:focus {
+    color: var(--primary-text-color-theme-light);
+    background-color: var(--accent-color);
+}
+.btn-name.current {
     color: var(--primary-text-color-theme-light);
     background-color: var(--accent-color);
 }
