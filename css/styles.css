@@ -71,7 +71,7 @@ color: var(--primary-text-color-theme-light)
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: #757575;
     
     
 }
@@ -85,7 +85,13 @@ color: var(--primary-text-color-theme-light)
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    
 }
+.contact-number-phone:hover,
+.contact-number-phone:focus {
+    color: var(--accent-color);
+}
+
 /* ========/header======= */
 
 /* ========hero======= */
@@ -111,7 +117,8 @@ color: var(--primary-text-color-theme-light)
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-     color: var(--primary-text-color-theme-light)
+    color: var(--primary-text-color-theme-light);
+    background-color: var(--accent-color)
 }
 /* ========/hero======= */
 /* ========servicec======= */
@@ -200,11 +207,12 @@ color: var(--secondary-text-color-theme-light)
     letter-spacing: 0.03em;
     cursor: pointer;
     
-    color: var(--primary-text-color-theme-dark)
+    color: var(--primary-text-color-theme-dark);
 }
 .btn-name:hover,
 .btn-name:focus {
     color: var(--primary-text-color-theme-light);
+    background-color: var(--accent-color);
 }
 /* ========filter for portfolio/======= */
 
