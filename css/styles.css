@@ -6,6 +6,7 @@
     --primary-text-color-theme-light: #FFFFFF;
     --secondary-text-color-theme-light: rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3;
+
 }
     
 .link {
@@ -17,7 +18,12 @@
 }
 body {
     font-family: var(--primary-font-family);
-    color: var(--primary-text-color-theme-dark)
+    font-style: normal;
+    color: var(--primary-text-color-theme-dark);
+    
+}
+.accent {
+    color: var(--accent-color);
 }
 /* ========components======= */
 .logo {
@@ -54,7 +60,7 @@ color: var(--primary-text-color-theme-light)
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;  
-    color: #212121;;
+    color: #212121;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -67,8 +73,6 @@ color: var(--primary-text-color-theme-light)
     letter-spacing: 0.02em;
     color: #212121;
     
-    
-
     
 }
 .contact-mail:hover,
@@ -111,13 +115,13 @@ color: var(--primary-text-color-theme-light)
 }
 /* ========/hero======= */
 /* ========servicec======= */
+
 .subtitle{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
 }
 .description { 
     font-weight: 400;
@@ -159,7 +163,7 @@ color: var(--primary-text-color-theme-light)
 
 /* ========footer ======= */
 .footer {
-    background-color: #2F303A;
+    background-color: #2F303A
 }
 .contact-map {
 
@@ -186,7 +190,7 @@ color: var(--secondary-text-color-theme-light)
 
 
 
-/* ========filter======= */
+/* ========filter for portfolio======= */
 .btn-name {
     font-family: var(--primary-font-family);
     font-weight: 500;
@@ -202,7 +206,7 @@ color: var(--secondary-text-color-theme-light)
 .btn-name:focus {
     color: var(--primary-text-color-theme-light);
 }
-/* ========filter/======= */
+/* ========filter for portfolio/======= */
 
 /* ========portfolio======= */
 .subtitle-portfolio {
